@@ -1,0 +1,119 @@
+.table-responsive{
+    display: flex;
+    justify-content: center;
+}
+.student-heading{
+    text-align: center;
+} 
+.student-notfound{
+    text-align: center;
+    color: #d32f2f;
+    font-weight: 500;
+}
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0px 0;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Responsive Design */
+  
+  /* Tablets and larger phones */
+  @media (max-width: 768px) {
+    table {
+      font-size: 14px;
+    }
+  
+    th, td {
+      padding: 10px 12px;
+    }
+  
+    button {
+      padding: 6px 10px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Mobile phones */
+  @media (max-width: 480px) {
+    table {
+      font-size: 12px;
+    }
+  
+    th, td {
+      padding: 8px 10px;
+    }
+  
+    button {
+      padding: 4px 8px;
+      font-size: 12px;
+    }
+  
+    /* Make the table scrollable horizontally */
+    .table-responsive {
+      width: 100%;
+      overflow-x: auto;
+    }
+  }
+  /* Deletion message styling */
+.deletion-message {
+    color: green;
+    font-size: 16px;
+    text-align: center;
+    margin: 15px 0;
+  }
+  
+  /* Responsive table styling */
+  .table-responsive {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #d32f2f;
+  }
+  
